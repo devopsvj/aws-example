@@ -2,7 +2,7 @@
 # DATA
 ##################################################################################
 
-data "aws_ami" "my_dev_tf_ami_data" {
+data "aws_ami" "my_first_ami_data" {
   most_recent = true
   owners      = ["amazon"]
 

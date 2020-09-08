@@ -2,10 +2,10 @@
 # RESOURCES - SECURITY GROUPS
 ##################################################################################
 
-resource "aws_security_group" "my_dev_tf_allow_ssh" {
-  name        = "nginx_dev_demo"
+resource "aws_security_group" "allow_ssh" {
+  name        = "nginx_demo"
   description = "Allow ports for ssh connection"
-  vpc_id      = aws_default_vpc.my-dev-tf-vpc-default.id
+  vpc_id      = aws_default_vpc.default.id
 
   ingress {
     from_port   = 22

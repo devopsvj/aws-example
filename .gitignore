@@ -1,0 +1,10 @@
+#  Local .terraform directories
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+setup_env.ps1
+test*/*
+**/archive-tfstate
+**/aws-sample1/.terraform/*
